@@ -64,7 +64,7 @@ try {
 
 	// Set title information based on form input
 	$texDoc->setTitle($problemSet['title']);
-	$texDoc->setDate(date('l, F j, Y, H:i:s')); // Should probably change this later
+	// $texDoc->setDate(date('l, F j, Y, H:i:s')); // Should probably change this later
 
 	// These packages should be in everything we make.
 	$texDoc->usePackage('inputenc', 'utf8'); // UTF-8 encoding

@@ -25,7 +25,7 @@ function grabProblem(id) {
 	$.ajax({
 		type : "GET",
 		url : "/php/getProblemAsJSON.php",
-		data : "id=" + id,
+		data : "id=" + id + "&addType=id",
 		dataType : "json",
 		success : function(problem) {
 			var form = $("#editProblemForm");
@@ -40,7 +40,10 @@ function grabProblem(id) {
 			form.find("[name=solText]").val(problem.soltext);
 			autosize.update($("#editProblemForm textarea"));
 
+			form.find("[name=probImageSize]").val(problem.probimagesize);
+
 			// Set the values for the image uploads
+			// TODO: Set image sizing to visible / invisible
 			if (problem.probimage) {
 				form.find("#editProbImageLabel").text("Current image on server");
 			} else {

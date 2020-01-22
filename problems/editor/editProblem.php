@@ -21,6 +21,7 @@ $id = $handle->realEscapeString($_POST['problemID']);
 $title = $handle->realEscapeString($_POST['title']);
 $probText = $handle->realEscapeString($_POST['probText']);
 $solText = $handle->realEscapeString($_POST['solText']);
+$probImageSize = $handle->realEscapeString($_POST['probImageSize']);
 
 $response = array();
 
@@ -83,7 +84,8 @@ foreach ($problem->getTags() as $tagName) {
 }
 
 //$queryString = "UPDATE problems SET title = '$title' where id = '$id'";
-$queryString = "UPDATE problems SET title = '$title', probtext = '$probText', probimage = $probImage, soltext = '$solText', solimage = $solImage WHERE id = '$id'";
+$probImageSize = $probImageSize ? $probImageSize : 'NULL';
+$queryString = "UPDATE problems SET title = '$title', probtext = '$probText', probimage = $probImage, probimagesize = $probImageSize, soltext = '$solText', solimage = $solImage WHERE id = '$id'";
 	
 if (!$id) {
 	$reponseToClient = "No Stella number specified";

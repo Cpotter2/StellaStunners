@@ -67,22 +67,32 @@ class LatexDoc {
 			$this->writeln('\usepackage' . $opt . '{' . $pkg . '}');
 		}
 
-		$this->writeln('\title{' . $this->title . '}');
+		$this->writeln('\title{\vspace{-90pt}' . $this->title . '\vspace{-50pt}}');
 		$this->writeln('\author{' . $this->author . '}');
 		$this->writeln('\date{' . $this->date . '}');
 	}
 
 	// Alias for including figures
-	private function includeFigure($fileName) { $this->writeln('\includegraphics{' . $fileName . '}'); }
+	private function includeFigure($fileName, $imgSize) { 
+		$imgSize = $imgSize ? $imgSize : 0.33;
+		$this->writeln("\\includegraphics[width=$imgSize\\textwidth]{" . $fileName . "}"); 
+	}
 
 	// Given the index number for a problem, writes that problem into
 	// the .tex file, also putting in a figure if there is one associated
 	// with that problem.
 	function writeProblem($problem) {
-		$this->writeln('\paragraph{'.$problem->getID().' -- '.$problem->getTitle().'}');
-		$this->writeln($problem->getProbText());
+		$probID = $problem->getID();
+		$probTitle = $problem->getTitle();
+		$probTitle = str_replace("&", "\\&", $probTitle);
+		$this->writeln('\paragraph{' . $probID . ' -- ' . $probTitle . '}');
+		$probText = $problem->getProbText();
+		$probText = str_replace("<br>", "\\newline ", $probText);
+		$probText = str_replace("&nbsp", "", $probText);
+		$this->writeln($probText);
 		if ($problem->getProbImg()) {
-			$this->includeFigure(glob(DOCUMENT_ROOT."/images/stunners/{$problem->getID()}/pfig1.*")[0]);
+			$probImgSize = $problem->getProbImgSize();
+			$this->includeFigure(glob(DOCUMENT_ROOT."/images/stunners/{$problem->getID()}/pfig1.*")[0], $probImgSize);
 		}
 //		$probDir = DOCUMENT_ROOT.'/problems/problem-data/problem'.$probIndex;
 //		$this->writeln('\paragraph{Problem '.$probIndex.'}');

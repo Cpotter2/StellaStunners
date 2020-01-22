@@ -38,16 +38,22 @@ while ($row = $result->fetch_assoc()) {
 	$pageHeader = $pageHeader . " and " . $row["name"];
 }
 
-
 $pageHeader = str_replace('set', 'Problem Set ', $pageHeader);
 $title = str_replace('Showing: ', '', $pageHeader);
+$checkoutLink = "checkout.php?tags[]=$tag1";
+if (isset($_GET["tag2"])) $checkoutLink = $checkoutLink . "&tags[]=$tag2";
+if (isset($_GET["tag3"])) $checkoutLink = $checkoutLink . "&tags[]=$tag3";
 
 include_once(DOCUMENT_ROOT."/includes/header.php");
 include_once(DOCUMENT_ROOT."/includes/sidenav.php")
 ?>
 
+
 <div id="content">
-	<h1><?php echo $pageHeader ?></h1>
+	<div id="content-header">
+		<h1><?php echo $pageHeader ?></h1>
+		<?php echo "<a href=\"$checkoutLink\"><button>";?>Create a document with these problems</button></a>
+	</div>
 	<table id="problems_table">
                 <!-- Top Row -->
                 <tr>

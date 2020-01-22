@@ -46,15 +46,24 @@ class Admin extends DBHandler {
 
 /* The Stunner class is the type of DBHandler that will access or edit the stunners database. */
 abstract class Stunner extends DBHandler {
+
+	function getProblemByTitle($title) {
+		$result = $this->query("SELECT * FROM problems WHERE title = '$title'");
+		if (!$result) {
+			throw new Exception("MySQLi query error: " . ($this->connection->error));
+		} else {
+			$row = $result->fetch_assoc();
+		}
+		return ($result->num_rows === 0 ? NULL : $this->getProblem($row["id"]));
+	}
 	
 	/* Grabs the row of the problems database whose id is $index.
 	   Returns the data in the form of a Problem object. */
 	function getProblem($index) {
-		$result = $this->query("SELECT * FROM problems WHERE id = '$index'");
+		$result = $this->query("SELECT * FROM problems WHERE id = '$index' LIMIT 1");
 		if (!$result) {
 			throw new Exception("MySQLi query error: " . ($this->connection->error));
 		}
-
 		$tagResult = $this->query("SELECT * FROM tagmap WHERE problem_id = '$index' ORDER BY tag_id ASC");
 		$tags = array();
 		while ($row = $tagResult->fetch_assoc()) {
@@ -64,7 +73,7 @@ abstract class Stunner extends DBHandler {
 	}
 
 	function getTagByID($tagID) {
-		$result = $this->query("SELECT * FROM tags WHERE id = $tagID");
+		$result = $this->query("SELECT * FROM tags WHERE id = $tagID LIMIT 1");
 		return ($result->num_rows === 0 ? NULL : new Tag($result));
 	}
 
@@ -119,6 +128,7 @@ class Problem {
 	const TITLE = "title";
 	const PROB_TEXT = "probtext";
 	const PROB_IMG = "probimage";
+	const PROB_IMG_SIZE = "probimagesize";
 	const SOL_TEXT = "soltext";
 	const SOL_IMG = "solimage";
 	const TAGS = "tags";
@@ -132,6 +142,7 @@ class Problem {
 	function getTitle() { return $this->assoc[self::TITLE]; }
 	function getProbText() { return $this->assoc[self::PROB_TEXT]; }
 	function getProbImg() {return $this->assoc[self::PROB_IMG]; }
+	function getProbImgSize() {return $this->assoc[self::PROB_IMG_SIZE];}
 	function getProbImgURL() {
 		// Ripped from https://stackoverflow.com/questions/4517067/remove-a-string-from-the-beginning-of-a-string
 		$images = glob(DOCUMENT_ROOT."/images/stunners/".$this->getID()."/pfig1.*");
