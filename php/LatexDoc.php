@@ -75,7 +75,7 @@ class LatexDoc {
 	// Alias for including figures
 	private function includeFigure($fileName, $imgSize) { 
 		$imgSize = $imgSize ? $imgSize : 0.33;
-		$this->writeln("\\includegraphics[width=$imgSize\\textwidth]{" . $fileName . "}"); 
+		$this->writeln("\\\\[2\\baselineskip] \\includegraphics[width=$imgSize\\textwidth]{" . $fileName . "}"); 
 	}
 
 	// Given the index number for a problem, writes that problem into
