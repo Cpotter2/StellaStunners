@@ -13,51 +13,38 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 <?php include_once(DOCUMENT_ROOT . "/includes/sidenav.php") ?>
 
 <div id="content">
-	<h1><?php echo $pageName ?></h1>
-	<h3>Welcome to the library of Stella's Stunners.</h3>
-
-	<p> Oberlin College welcomes you to an ever-growing library of non-routine mathematical challenge problems, collected by schoolteacher Rudd Crawford, with help, for more than 50 years. The problems, numbering over 600 so far, range from simple visual problems that require no specific mathematical background, to problems that use the content of Pre-Algebra, Algebra I, Geometry, Algebra II and/or Trigonometry, up into the foothills of calculus.</p>
-
-	<p>The Stella problems are not typical textbook exercises. They are considered "non-routine" problems because the methods of attacking them are not immediately obvious. Indeed, the immediate response from students is, typically, "Wait! Are you kidding me? No way!" Because these problems can supplement and enliven traditional mathematics courses in a variety of ways, we have included materials to assist you in using Stella problems in your teaching. This home page gives links to these materials.</p>
-
-	<ul>
-		<!--comment out the link for backgroud, as links for  the same articles are provided in the following sentences-->
-		<li>
-			<!--<a href="background">-->Background essays</a></li>
-		<ul>
-			<li><a href="background/problem_solving.php">What students gain from problem solving</a></li>
-			<li><a href="background/heuristics.php">Some helpful problem solving heuristics</a></li>
-			<li><a href="background/bio.php">Stella biography</a></li>
-		</ul>
-		<li>Introductory problems with detailed solutions</li>
-		<ul>
-			<li><a href="intro/intro_essay.php">Intro essay</a></li>
-			<li>Problems and solutions</li>
-		</ul>
-		<li>Problem sets: 18 sets for 5 courses</li>
-		<li>Making your own problem sets: the shopping cart</li>
-		<li><a href="about">Using Stella Problems</a></li>
-		<ul>
-			<li><a href="about/classroom.php">In the classroom</a></li>
-			<li>Sample grading slips, <a href="about/grading_slips_small.pdf" target="_blank">small</a> and <a href="about/grading_slips_large.pdf" target="_blank">large</a></li>
-			<li><a href="about/extending.php">On extending problems</a></li>
-		</ul>
-		<li>The complete Stella Library</li>
-		<ul>
-			<li>By course</li>
-			<li>By title</li>
-			<li>By Stella number</li>
-			<li>By tags</li>
-		</ul>
-		<li>The Stella Decimal System</li>
-		<ul>
-			<li><a href="stella_system/stella_num.php">By Stella number</a></li>
-			<li><a href="stella_system/topic.php">By topic</a></li>
-			<li><a href="stella_system/topic_overview.php">Topic overview</a></li>
-		</ul>
-		<li><a href="copyright">Sources</a></li>
-		<li>How to contact us</li>
-		<li>How to suggest problems for inclusion in the library</li>
+<h1 class="introduction"><span class="description">Stella's Stunners:</span> Non-Routine Mathematics Problems for Middle and High School Students.</h1>
+	<ul class="sticky-notes">
+		<li class="sticky-notes">
+			<a href="/landing-page/welcome">
+				<h2 class="sticky-fonts welcome"> WELCOME</h2>
+			</a>
+		</li>
+		<li class="sticky-notes">
+			<a href="/landing-page/play">
+				<h2 class="sticky-fonts play">PLAY</h2>
+			</a>
+		</li>
+		<li class="sticky-notes">
+			<a href="/landing-page/the-prob-library">
+				<h2 class="sticky-fonts lib-prob">THE PROBLEM LIBRARY</h2>
+			</a>
+		</li>
+		<li class="sticky-notes">
+			<a href="/landing-page/nav-in-library">
+				<h2 class="sticky-fonts nav-lib">NAVIGATING IN THE LIBRARY</h2>
+			</a>
+		</li>
+		<li class="sticky-notes">
+			<a href="/landing-page/using-lib-with-stu">
+				<h2 class="sticky-fonts stu">USING THE LIBRARY WITH STUDENTS</h2>
+			</a>
+		</li>
+		<li class="sticky-notes">
+			<a href="/landing-page/everything-else">
+				<h2 class="sticky-fonts everything-else">EVERYTHING ELSE</h2>
+			</a>
+		</li>
 	</ul>
 
 
