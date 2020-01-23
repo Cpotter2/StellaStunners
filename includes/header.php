@@ -19,6 +19,10 @@
 	<link rel="stylesheet" type="text/css" href="/css/sidenav.css">
 	<link rel="stylesheet" type="text/css" href="/css/cart.css">
 	<link rel="stylesheet" type="text/css" href="/css/editor.css">
+	<link rel="stylesheet" type="text/css" href="/css/tables.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|EB+Garamond:700|Montserrat|Reenie+Beanie&display=swap" rel="stylesheet">
 
 	<!-- MathJax script -->
 	<script type="text/x-mathjax-config">
@@ -44,9 +48,6 @@
 	<ul>
 	<li><a id="home" class="active" href="/">Stella's Stunners</a></li>
 	<li><a href="/problems">Problems</a></li>
-	<li><a href="/contact">Contact</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/acknowledgements.php">Acknowledgements</a></li>
 	</ul>
 </nav>
 

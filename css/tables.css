@@ -1,0 +1,70 @@
+/* Source table, should maybe be moved to its own file sometime */
+#source_table {
+  margin-top: 1rem;
+}
+
+#source_table th {
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid #000;
+}
+
+#source_table tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+#tagList {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.tagLabel {
+  color: #4caf50;
+  font-weight: bold;
+  background-color: #e9f5e9;
+  padding: 0 5px;
+  margin-left: 10px;
+}
+
+/* Show problems and show tag tables */
+/* Should be tweaked at some point, because it's stolen from a website */
+#problems_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#problems_table td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#problems_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+#problems_table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#problems_table tr:hover {
+  background-color: #ddd;
+}
+
+/* General Tables */
+.everything-else, .using-lib-with-stu, .nav-in-library, .the-prob-library {
+  margin-top: 3rem;
+}
+
+.topic-overview {
+  margin-top: 1.5rem;
+}
+
+.play {
+  margin-top: 1rem;
+}

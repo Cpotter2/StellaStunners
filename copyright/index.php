@@ -5,7 +5,7 @@ include_once(DOCUMENT_ROOT."/php/functions.php");
 include_once DOCUMENT_ROOT."/php/login.php";
 ?>
 
-<?php 
+<?php
 $title = "Sources";
 $pageName = "Sources";
 include_once(DOCUMENT_ROOT."/includes/header.php");
@@ -14,44 +14,55 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
 
+	<h3>A note on sources</h3>
+	<p>Here’s how I’ve handled sources and citations (Rudd writing): As I accumulated problems from various sources over the years, I wrote them on filing cards
+		and was sloppy about keeping track of where I found them. Some problems are simply generic,like the basic recipes in a cookbook.
+		But many, especially the kind I’ve liked to collect, deserve citation.
+		So now, in setting up this website, I have searched back and found sources for as many such problems as I could. </p>
+
+	<p>In going through the problem collection, I grouped the problems as follows:</p>
+
+	<p><u>Problems needing a footnote:</u></p>
+
+	<p>1.  Problems taken word for word, or a copied diagram exactly; source given accurately.  There are about 150 of these.</p>
+
+	<p>2.  Problems taken word for word, or a copied diagram exactly; source not found (groan).  There are 32 or so of these, alas.  These are the ones I'm unhappy about.</p>
+
+	<p>3.  Problems with a cool idea, that my crew has rewritten for local/timely/fun reasons; good spirit to credit the source but not legally required, I'm sure.</p>
+
+	<p><u>Problems that I think don’t need a footnote:</u></p>
+
+	<p>4.  Problems with a cool idea that have appeared in many sources.</p>
+
+	<p>5.  Problems from old AHSME’s.</p>
+
+	<p>6. Problems that are just straight math things--no particular flavor; no need to cite (anybody could have thought them up; maybe Stella or I did).</p>
+
+	<p>Perhaps the most-used single source is the massive collection of problems given out at "a conference on computers in secondary-school mathematics,
+		June 22-27, 1986", at Phillips Exeter Academy.  There is a tremendous number of interesting problems in this collection.
+		There is no copyright for the entire document, and there is no citation for any problem.  Thus I don't think we're required to cite these problems,
+		but the Exeter folks certainly deserve a shout-out for creating/compiling them.</p>
+
 	<table id="source_table">
 	<?php
-	$sources = file("sources.txt");
-	$tableHead = array_shift($sources);
-	echo "<thead><tr>";
-	foreach (explode("\t", $tableHead) as $column) {
-		echo "<th>$column</th>";
-	}
-	echo "</tr></thead>";
-	echo "<tbody>";
-	foreach ($sources as $line) {
-		echo '<tr>';
-		foreach (explode("\t", $line) as $datum) {
-			echo "<td>$datum</td>";
-		}
-		echo '</tr>';
-	}
-	echo "</tbody>";
-	?>
+    $sources = file("sources.txt");
+    $tableHead = array_shift($sources);
+    echo "<thead><tr>";
+    foreach (explode("\t", $tableHead) as $column) {
+        echo "<th>$column</th>";
+    }
+    echo "</tr></thead>";
+    echo "<tbody>";
+    foreach ($sources as $line) {
+        echo '<tr>';
+        foreach (explode("\t", $line) as $datum) {
+            echo "<td>$datum</td>";
+        }
+        echo '</tr>';
+    }
+    echo "</tbody>";
+    ?>
 	</table>
-	
-	<hr>
-	<h3>A note on sources</h3>
-	<p>I have found sources for quite a few problems, some of which are in our 18 sets and some of which we're not yet using. When I found a source, I gave its code name, as found in the Stella Sources spreadsheet. For all the problems, especially the rest, I put a number alongside the problem, as follows:</p>
-	
-	<ol>
-	<li>Problems taken word for word, or a copied diagram exactly; source given accurately. There are about 150 of these.</li>
-	<li>Problems taken word for word, or a copied diagram exactly; source not found. There are 32 or so of these, alas. These are the ones I'm unhappy about.</li>
-	<li>Problems with a cool idea, that I have rewritten for local/timely reasons; good spirit to credit the source but not legally required, I'm sure.</li>
-	<li>Problems with a cool idea that have appeared in many sources; no need to cite.</li>
-	<li>Problems that are generic; no need to cite (like recipes found in all cookbooks).</li>
-	<li>Problems that are just straight math things-- no particular flavor; no need to cite (anybody could have thought them up-- these aren't like those in #2).</li>
-	<li>Problems that originate with Stella (or Jasper); no need to cite, obviously.</li>
-	<li>Problems that might or might not be original, but that have no need to be cited.</li>
-	<li>Multiple choice questions, presumably from AHSME's.</li>
-	</ol>
-
-	<p>There are problems in categories 3-6 where I've found one or more sources, but as far as I'm concerned there's no need to cite them-- I list the source just, well, showing off that I found it. Perhaps the most-used single source is the massive collection of problems given out at "a conference on computers in secondary-school mathematics, June 22-27, 1986", at Phillips Exeter Academy. There is a staggering number of interesting problems in this collection. There is no copyright for the entire document, and there is no citation for any problem. Thus I don't think we're required at all to cite these problems, but we might give an acknowledgement somewhere to Exeter. Whatever.</p>
 
 </div>
 

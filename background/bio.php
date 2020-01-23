@@ -4,7 +4,7 @@ include_once(DOCUMENT_ROOT."/php/constants.php");
 include_once(DOCUMENT_ROOT."/php/functions.php");
 ?>
 
-<?php 
+<?php
 $title = "Background Information";
 $pageName = "Background Information";
 include_once(DOCUMENT_ROOT."/includes/header.php");
@@ -38,7 +38,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 
 	<p>Stella, love, may your problems inspire students forever.</p>
 
-	<p>I like to think that this painting by Rembrandt, Old Woman Reading, 1655, could be a painting of one of Stella's ancestors.</p>
+	<p>I like to think that this painting by Rembrandt, Old Woman Reading, 1655, could be a painting of one of Stella's ancestors. There's a definite resemblance.</p>
 
 	<img src=DOCUMENT_ROOT."painting.png" alt="Old Woman Reading, painting by Rembrandt, 1655">
 </div>
