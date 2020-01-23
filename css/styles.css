@@ -3,13 +3,16 @@ body {
   margin: 0;
   background-color: #f3f3f3;
   background-image: url('background.jpg');
-}
-* {
   font-family: 'Century Gothic', Helvetica;
 }
 
-/* Main Page Layout */
+/* Main heading */
+span.description {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
+/* Main Page Layout */
 /* Wrapper for the main page content, as well as the sidebar and shopping cart. */
 #wrapper {
   display: flex;
@@ -26,18 +29,17 @@ body {
   flex: 1;
   margin: 0 20px;
   min-width: 400px;
-  max-width: 960px;
+  max-width: 1103px;
   background-color: white;
-  padding: 5px 20px 50px 20px;
+  padding: 5px 20px 10px 20px;
   border: 5px solid #4caf50;
   border-radius: 15px 15px 0 0;
 }
 
-#content a,
+/* #content a,
 a:visited {
   color: darkcyan;
-}
-
+} */
 /* Put at the top left of the wrapper */
 #sidenav {
   order: 1;
@@ -47,12 +49,17 @@ a:visited {
 }
 
 /* Other styles for the main content div */
-
-#content h1 {
-  margin: 0; /* The default margin pushes past the wrapper */
+#content h1.introduction {
+  margin: 0;
+  /* The default margin pushes past the wrapper */
   padding-top: 10px;
   border-bottom: 1px solid black;
   display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.3rem;
+  font-weight: normal;
 }
 
 #content ul {
@@ -82,59 +89,143 @@ a:visited {
   border-radius: 6px;
 }
 
-/* Source table, should maybe be moved to its own file sometime */
-#source_table {
+/* STICKY NOTE SECTION */
+*, ::after, ::before {
+  box-sizing: border-box;
 }
 
-#source_table th {
+ul.sticky-notes li.sticky-notes h2.welcome {
+  padding: 4rem 2rem;
+  font-size: 300%;
+}
+
+ul.sticky-notes li.sticky-notes h2.play {
+  padding: 4rem;
+  font-size: 300%;
+}
+
+ul.sticky-notes li.sticky-notes h2.lib-prob {
+  font-size: 300%;
+  padding: 1rem 2rem;
+}
+
+ul.sticky-notes li.sticky-notes h2.nav-lib {
+  font-size: 300%;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+ul.sticky-notes li.sticky-notes h2.stu {
+  font-size: 280%;
+  text-align: center;
+}
+
+ul.sticky-notes li.sticky-notes h2.everything-else {
+  font-size: 300%;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.aside {
+  padding: 1rem;
+}
+
+h2.sticky-notes, p.sticky-notes {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul.sticky-notes, li.sticky-notes, li.signature {
+  list-style: none;
+}
+
+ul.sticky-notes {
+  overflow: hidden;
+  padding: 3em;
+}
+
+ul.sticky-notes li.sticky-notes a {
+  text-decoration: none;
+  color: #000;
+  background: #ffc;
+  display: block;
+  height: 15rem;
+  width: 15rem;
+  padding: 1rem;
+  -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+  -moz-transition: -moz-transform .15s linear;
+  -o-transition: -o-transform .15s linear;
+  -webkit-transition: -webkit-transform .15s linear;
+}
+
+ul.sticky-notes li.sticky-notes {
+  margin: 2em;
+  float: left;
+  width: 25%;
+}
+
+ul.sticky-notes li.sticky-notes h2 {
   font-weight: bold;
-  text-align: left;
-  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+  font-family: "Reenie Beanie", arial, sans-serif;
+  font-size: 190%;
 }
 
-#source_table tr:nth-child(even) {
-  background-color: #efefef;
+ul.sticky-notes li.sticky-notes a {
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
 }
 
-#tagList {
-  border-top: 1px solid black;
-  margin-top: 10px;
-  padding-top: 15px;
+ul.sticky-notes li.sticky-notes:nth-child(even) a {
+  -o-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+  background: #cfc;
 }
 
-.tagLabel {
-  color: #4caf50;
-  font-weight: bold;
-  background-color: #e9f5e9;
-  padding: 0 5px;
-  margin-left: 10px;
+ul.sticky-notes li.sticky-notes:nth-child(3n) a {
+  -o-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+  background: #ccf;
 }
 
-/* Show problems and show tag tables */
-/* Should be tweaked at some point, because it's stolen from a website */
-#problems_table {
-  border-collapse: collapse;
-  width: 100%;
+ul.sticky-notes li.sticky-notes:nth-child(5n) a {
+  -o-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  position: relative;
+  top: -10px;
 }
 
-#problems_table td,
-th {
-  border: 1px solid #ddd;
-  padding: 8px;
+ul.sticky-notes li.sticky-notes a:hover, ul.sticky-notes li a:focus {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position: relative;
+  z-index: 5;
 }
 
-#problems_table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4caf50;
-  color: white;
+ol li.sticky-notes {
+  display: inline;
+  padding-right: 1em;
 }
 
-#problems_table tr:nth-child(even) {
-  background-color: #f2f2f2;
+ol li.sticky-notes a {
+  color: #fff;
 }
 
-#problems_table tr:hover {
-  background-color: #ddd;
+ul.sticky-notes li.sticky-notes h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
