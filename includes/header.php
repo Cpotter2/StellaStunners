@@ -47,7 +47,7 @@
 <nav id="topnav">
 	<ul>
 	<li><a id="home" class="active" href="/">Stella's Stunners</a></li>
-	<li><a href="/problems">Problems</a></li>
+	<li><a href="/problems">Problems and Document Creation</a></li>
 	</ul>
 </nav>
 
