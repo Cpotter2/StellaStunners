@@ -21,7 +21,7 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 	<table id="problems_table" class="using-lib-with-stu">
     <thead>
 			<tr>
-				<th>Stella Index</th>
+				<th>Document Index</th>
 				<th>Title</th>
 
 			</tr>
