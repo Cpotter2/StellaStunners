@@ -69,6 +69,28 @@ for ($i=1; $i<19; $i++){
   echo "<a class='side-link' href='/problems/show-tag.php?tag=$i'><li>Problem Set $i</li></a>";
 }
 echo "<a href='/problems/show-tag.php?tag=41'><li>Problem Set 99</li></a>";
+echo "<br />";
+echo "<h3>Courses</h3>";
+echo "<a href='/problems/show-tag.php?tag=19'><li>Pre-Algebra</li></a>";
+echo "<a href='/problems/show-tag.php?tag=20'><li>Algebra I</li></a>";
+echo "<a href='/problems/show-tag.php?tag=21'><li>Geometry</li></a>";
+echo "<a href='/problems/show-tag.php?tag=22'><li>Algebra/Trigonometry</li></a>";
+echo "<a href='/problems/show-tag.php?tag=23'><li>Pre-Calculus Math</li></a>";
+echo "<h3>Topic</h3>";
+echo "<a href='/problems/show-tag.php?tag=37'><li>Introductory</li></a>";
+echo "<a href='/problems/show-tag.php?tag=24'><li>Visual</li></a>";
+echo "<a href='/problems/show-tag.php?tag=25'><li>Logic</li></a>";
+echo "<a href='/problems/show-tag.php?tag=26'><li>Arithmetic: Z</li></a>";
+echo "<a href='/problems/show-tag.php?tag=27'><li>Arithmetic: Q & R</li></a>";
+echo "<a href='/problems/show-tag.php?tag=28'><li>Algebra Prep</li></a>";
+echo "<a href='/problems/show-tag.php?tag=29'><li>Algebra</li></a>";
+echo "<a href='/problems/show-tag.php?tag=30'><li>Symbol-Pushing</li></a>";
+echo "<a href='/problems/show-tag.php?tag=38'><li>Geometry-Informal</li></a>";
+echo "<a href='/problems/show-tag.php?tag=39'><li>Geometry-Euclidean</li></a>";
+echo "<a href='/problems/show-tag.php?tag=40'><li>Geometry-Analytical</li></a>";
+echo "<a href='/problems/show-tag.php?tag=34'><li>Trigonometry</li></a>";
+echo "<a href='/problems/show-tag.php?tag=35'><li>Pre-Calculus</li></a>";
+echo "<a href='/problems/show-tag.php?tag=36'><li>Calculator</li></a>";
 ?>
 </ul>
 </div>
