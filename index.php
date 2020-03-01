@@ -32,7 +32,7 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		</li>
 		<li class="sticky-notes">
 			<a href="/landing-page/nav-in-library">
-				<h2 class="sticky-fonts nav-lib">NAVIGATING IN THE LIBRARY</h2>
+				<h2 class="sticky-fonts nav-lib">BROWSING, FINDING, AND DOWNLOADING</h2>
 			</a>
 		</li>
 		<li class="sticky-notes">
