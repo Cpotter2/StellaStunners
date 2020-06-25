@@ -18,7 +18,7 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
   <h1><?php echo $pageName ?></h1>
 
   <p>Oberlin College welcomes you to a library of more than 700 non-routine mathematics problems, arranged for easy access by topic, 
-  with numerous suggestions for using them with students.</p>
+  with numerous suggestions for using them with students. Spend some behind the “Play” post-it and go on from there.</p>
 
 </div>
 
