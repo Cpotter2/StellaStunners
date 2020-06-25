@@ -22,7 +22,7 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
 
-	<p><a href="editor">Problem Editor</a> <a href="checkout.php">Document Creator</a></p>
+	<p><a href="checkout.php">Document Creator</a></p>
 
 	<table id="problems_table">
 		<!-- Top Row -->

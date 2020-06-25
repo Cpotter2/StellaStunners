@@ -53,6 +53,11 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 				<td>9</td>
 				<td><a href="/contact">Contact Us</a></td>
 			</tr>
+
+			<tr>
+				<td>10</td>
+				<td><a href="/problems/editor">Problem Editor</a></td>
+			</tr>
 		</tbody>
 	</table>
 
