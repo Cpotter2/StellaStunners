@@ -56,7 +56,7 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 
 			<tr>
 				<td>10</td>
-				<td><a href="/problems/editor">Problem Editor</a></td>
+				<td><a href="/problems/editor">Administrators Only</a></td>
 			</tr>
 		</tbody>
 	</table>

@@ -32,8 +32,8 @@ $handle->close();
 ?>
 
 <?php
-$title = "Problem Editor";
-$pageName = "Problem Editor &ndash; Login";
+$title = "Administrators Login";
+$pageName = "Administrators &ndash; Login";
 include_once(DOCUMENT_ROOT."/includes/header.php");
 ?>
 
