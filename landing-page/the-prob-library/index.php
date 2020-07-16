@@ -21,7 +21,6 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 	<table id="problems_table" class="the-prob-library">
     <thead>
 			<tr>
-				<th>Document Index</th>
 				<th>Title</th>
 
 			</tr>
@@ -30,22 +29,18 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tbody>
 
 			<tr>
-				<td>3.1</td>
 				<td><a href="/tutorial/guided-tours.php" target="_blank">Guided Tours (with links)</a></td>
 			</tr>
 
 			<tr>
-				<td>3.2</td>
 				<td><a href="/stella_system/topic_overview.php" target="_blank">Topic Overview</a></td>
 			</tr>
 
 			<tr>
-				<td>3.3</td>
 				<td><a href="/stella_system/topic.php" target="_blank">SDS by topic</a></td>
 			</tr>
 
 			<tr>
-				<td>3.4</td>
 				<td><a href="/stella_system/stella_num.php" target="_blank">SDS by Stella Number</a></td>
 			</tr>
 

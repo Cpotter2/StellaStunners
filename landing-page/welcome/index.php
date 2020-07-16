@@ -21,7 +21,6 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 	<table id="problems_table" class="everything-else">
 		<thead>
 			<tr>
-				<th>Document Index</th>
 				<th>Title</th>
 
 			</tr>
@@ -30,17 +29,14 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tbody>
 
 			<tr>
-				<td>1.2</td>
 				<td><a href="/landing-page/welcome/oberlin-welcome.php">Welcome</a></td>
 			</tr>
 
 			<tr>
-				<td>1.3</td>
 				<td><a href="/landing-page/welcome/foreword-steve.php">Foreword (Steve)</a></td>
 			</tr>
 
 			<tr>
-				<td>1.4</td>
 				<td><a href="/landing-page/welcome/preface-rudd.php" target="_blank">Preface (Rudd)</a></td>
 			</tr>
 
