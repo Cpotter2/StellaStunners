@@ -29,11 +29,7 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tbody>
 
 			<tr>
-				<td><a href="/copyright">A Note on Sources</a></td>
-			</tr>
-
-			<tr>
-				<td><a href="/landing-page/everything-else/Bibliography.xls" target="_blank">Bibliography</a></td>
+				<td><a href="/copyright">A Note on Sources; Bibliography</a></td>
 			</tr>
 
 			<tr>

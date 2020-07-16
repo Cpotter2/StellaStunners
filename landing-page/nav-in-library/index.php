@@ -5,8 +5,8 @@ include_once(DOCUMENT_ROOT . "/php/functions.php");
 ?>
 
 <?php
-$title = "NAVIGATING IN THE LIBRARY";
-$pageName = "NAVIGATING IN THE LIBRARY";
+$title = "BROWSING, FINDING, AND DOWNLOADING";
+$pageName = "BROWSING, FINDING, AND DOWNLOADING";
 include_once(DOCUMENT_ROOT . "/includes/header.php");
 ?>
 
@@ -29,28 +29,28 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tbody>
 
 			<tr>
-				<td><a href="/tutorial/browse.php" target="_blank">Browse by Number</a></td>
+				<td><a href="/tutorial/browse.php" target="_blank">Browsing by Number</a></td>
 			</tr>
 
 			<tr>
-				<td><a href="/tutorial/find-prob-by-topic.php" target="_blank">Find a Problem by Topic</a></td>
+				<td><a href="/tutorial/find-prob-by-topic.php" target="_blank">Finding a Problem by Topic</a></td>
 			</tr>
 
 			<tr>
-				<td><a href="/tutorial/one-prob.php" target="_blank">Create a PDF of a Problem</a></td>
+				<td><a href="/tutorial/one-prob.php" target="_blank">Creating a PDF of a Problem</a></td>
 			</tr>
 
 			<tr>
-				<td><a href="/tutorial/several-prob.php" target="_blank">Create a PDF of Several Problems</a></td>
+				<td><a href="/tutorial/several-prob.php" target="_blank">Creating a PDF of a Set of Problems from Scratch</a></td>
 			</tr>
 			<tr>
 
 			<tr>
-				<td><a href="/tutorial/make-and-use-prob-set.php" target="_blank">Problem Sets</a></td>
+				<td><a href="/tutorial/make-and-use-prob-set.php" target="_blank">Using the Problem Sets</a></td>
 			</tr>
 
 			<tr>
-				<td><a href="/tutorial/create-pdf-from-prob-set.php" target="_blank">Create a PDF from a Problem Set</a></td>
+				<td><a href="/tutorial/create-pdf-from-prob-set.php" target="_blank">Creating a PDF from a Problem Set</a></td>
 			</tr>
 
       <tr>

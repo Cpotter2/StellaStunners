@@ -33,11 +33,11 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 			</tr>
 
 			<tr>
-				<td><a href="/landing-page/welcome/foreword-steve.php">Foreword (Steve)</a></td>
+				<td><a href="/landing-page/welcome/foreword-steve.php">Foreword (Steve Meiring)</a></td>
 			</tr>
 
 			<tr>
-				<td><a href="/landing-page/welcome/preface-rudd.php" target="_blank">Preface (Rudd)</a></td>
+				<td><a href="/landing-page/welcome/preface-rudd.php" target="_blank">Preface (Rudd Crawford)</a></td>
 			</tr>
 
 		</tbody>

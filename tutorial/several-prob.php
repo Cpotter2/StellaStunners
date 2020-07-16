@@ -6,7 +6,7 @@ include_once(DOCUMENT_ROOT."/php/functions.php");
 
 <?php
 $title = "NAVIGATING IN THE LIBRARY";
-$pageName = "Create a PDF of Several Problems";
+$pageName = "Creating a PDF of a Set of Problems from Scratch";
 include_once(DOCUMENT_ROOT."/includes/header.php");
 ?>
 

@@ -37,11 +37,11 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 			</tr>
 
 			<tr>
-				<td><a href="/stella_system/topic.php" target="_blank">SDS by topic</a></td>
+				<td><a href="/stella_system/topic.php" target="_blank">The Stella Decimal System by Topic</a></td>
 			</tr>
 
 			<tr>
-				<td><a href="/stella_system/stella_num.php" target="_blank">SDS by Stella Number</a></td>
+				<td><a href="/stella_system/stella_num.php" target="_blank">The Stella Decimal System by Stella Number</a></td>
 			</tr>
 
 		</tbody>

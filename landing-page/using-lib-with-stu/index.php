@@ -49,10 +49,6 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 				<td><a href="/about/grading_slips_small.pdf" target="_blank">Grading Slip (small)</a></td>
 			</tr>
 
-			<tr>
-				<td>Grading Smaller Sets {set of numbers}</td>
-			</tr>
-
       <tr>
 				<td><a href="/background/heuristics.php">Heuristics</a></td>
 			</tr>
