@@ -2,7 +2,6 @@
 define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']);
 include_once(DOCUMENT_ROOT."/php/constants.php");
 include_once(DOCUMENT_ROOT."/php/functions.php");
-include_once DOCUMENT_ROOT."/php/login.php";
 ?>
 
 <?php
