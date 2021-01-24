@@ -63,8 +63,8 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 
   <p>Think about how you’re thinking as you work on them; think about how you feel when you get one or when you get stuck. </p>
 
-  <p> When you’ve had enough of that for now, you’ll probably want to familiarize yourself with various features of the website.
-    I suggest heading over to the Problem Library Organization menu to see how the library itself is put together (there’s a guided tour).
+  <p> When you’ve had enough of that for now, I suggest you go back to some or all of the
+	other documents in the WELCOME post-it.
 </p>
 
 </div>
