@@ -40,6 +40,10 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 				<td><a href="/landing-page/welcome/preface-rudd.php" target="_blank">Preface (Rudd Crawford)</a></td>
 			</tr>
 
+			<tr>
+				<td><a href="/landing-page/welcome/quick-problems.php" target="_blank">Getting some Problems for your Students Quickly</a></td>
+			</tr>
+
 		</tbody>
 	</table>
 
