@@ -1,4 +1,5 @@
 Stella Number	Topic
+	Visual Problems 1000-1095
 1000	visual problems
 1007	"networks, tracing"
 1008	pattern completion (visual)
@@ -19,6 +20,7 @@ Stella Number	Topic
 1093	geoblocks
 1094	two-dimen. versions of 3-d prob.
 1095	missing faces of solids
+	Logic: 1190-1290, 3750
 1100	"number patterns (cf. 2530, 2850)"
 1110	"numbers in patterns, arranging"
 1120	cross-number puzzles
@@ -42,6 +44,7 @@ Stella Number	Topic
 1270	pigeonhole principle
 1280	liars/truthtellers
 1290	venn diagrams (cf. 2030)
+	Arithmetic with integers: 1300-1342
 1300	"numerals, writing; digits (pl. value, cf. 1720)"
 1305	odd-even numbers
 1307	consecutive integers
@@ -56,6 +59,7 @@ Stella Number	Topic
 1335	"roots, higher"
 1340	counting (how many)
 1342	counting: how many ways
+	Arithmetic: 1350-2022
 1350	"decimal arithmetic, incl. $ (cf. 1170, 2480)"
 1360	rational numbers
 1365	fractions (numerical)
@@ -73,6 +77,7 @@ Stella Number	Topic
 1430	"arithmetic means, numerical (cf. 2452, 2860)"
 1440	"geometric means, num.  (cf. 2454, 2870, 3590)"
 1450	"harmonic means, num.  (cf. 2456, 2880)"
+	Calculator us: 1460-1480
 1460	"calculator, use of"
 1465	"calculator, broken key"
 1470	calculator: heavy calculations
@@ -80,6 +85,7 @@ Stella Number	Topic
 1490	bargains (cf. linear programming 2220)
 1510	"living life (1/8 as boy , 1/4  as..)"
 1520	wages
+	Pre-Algebra: 1530-1550
 1530	"word problems, whole #'s (""typical"")"
 1540	"word problems, hard but (""typical"")"
 1550	word problems: soft-core algebra
@@ -105,6 +111,7 @@ Stella Number	Topic
 2020	i
 2021	complex numbers
 2022	complex number operations
+	Symbol Pushing: 2030-2745, 2859-2990
 2030	sets (cf. 1290)
 2040	"operations, prop. of (""new math"")"
 2050	numerical expressions: order of op.
@@ -209,6 +216,7 @@ Stella Number	Topic
 2735	log to exp. form & v.v.
 2740	logarithms: change of base
 2745	"equations, logarithmic"
+	Analytic Geometry: 2750-2840, 3680-3850
 2750	coordinate plane
 2760	"coord. geom: slope, dist, midpt. &c."
 2761	slope of line
@@ -235,6 +243,7 @@ Stella Number	Topic
 2970	vectors
 2980	limits
 2990	probs. w/ (seemingly) insuff. info
+	Informal Geometry: 3000-3080
 3000	"geometry, informal (for geom. class) (cf. 1020)"
 3004	four-color problem
 3050	"geometry: early (segments, angles)"
@@ -244,6 +253,7 @@ Stella Number	Topic
 3071	complementary angles
 3072	supplementary angles
 3080	"separation (regions, counting)"
+	Euclidian Geometry: 3100-3650, 3752-3850
 3100	triangles and congruence
 3140	three-dimen. prob. w/ cong. triang.
 3150	"triangles, elementary: general"
@@ -328,6 +338,7 @@ Stella Number	Topic
 3755	"proofs, phony"
 3800	constructions
 3850	locus
+	Trigonometry: 4000-4340
 4000	"trigonometry, basics"
 4040	"trigonometry functions, graphs of"
 4050	trigonometry on triangles
@@ -342,9 +353,11 @@ Stella Number	Topic
 4220	"trigonometry, spherical / 3-d probs"
 4300	combinatorics
 4340	"trigonometry on polyhedra, numer."
+	Probability: 4400-4420
 4400	probability (cf. 1340)
 4410	combinations
 4420	permutations
+	Everything else: 5000-
 5000	SAT for algebra 1
 5200	SAT for geometry
 5300	SAT for algebra/trig and beyond
