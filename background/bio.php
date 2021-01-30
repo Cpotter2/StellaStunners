@@ -16,7 +16,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
 
-	<p>May I present to you my old and dear friend Stella, 1926-2016, whose love for non-routine mathematics problems, not to mention her large collection of them, prompted me to begin to develop the organized library known as Stella's Stunners more than 30 years ago. </p>
+	<p>May I [Rudd] present to you my old and dear friend Stella, 1926-2016, whose love for non-routine mathematics problems, not to mention her large collection of them, prompted me to begin to develop the organized library known as Stella's Stunners more than 30 years ago. </p>
 
 	<p>Many people have inquired about Stella herself, so I present here a short biography.</p>
 

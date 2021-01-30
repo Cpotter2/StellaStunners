@@ -5,15 +5,14 @@ include_once(DOCUMENT_ROOT."/php/functions.php");
 ?>
 
 <?php
-$title = "Sources";
-$pageName = "Sources";
+$title = "A Note on Sources";
+$pageName = "A Note on Sources";
 include_once(DOCUMENT_ROOT."/includes/header.php");
 ?>
 
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
 
-	<h3>A note on sources</h3>
 	<p>Here’s how I’ve handled sources and citations (Rudd writing): As I accumulated problems from various sources over the years, I wrote them on filing cards
 		and was sloppy about keeping track of where I found them. Some problems are simply generic,like the basic recipes in a cookbook.
 		But many, especially the kind I’ve liked to collect, deserve citation.
@@ -41,27 +40,6 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 		June 22-27, 1986", at Phillips Exeter Academy.  There is a tremendous number of interesting problems in this collection.
 		There is no copyright for the entire document, and there is no citation for any problem.  Thus I don't think we're required to cite these problems,
 		but the Exeter folks certainly deserve a shout-out for creating/compiling them.</p>
-
-	<table id="source_table">
-	<?php
-    $sources = file("sources.txt");
-    $tableHead = array_shift($sources);
-    echo "<thead><tr>";
-    foreach (explode("\t", $tableHead) as $column) {
-        echo "<th>$column</th>";
-    }
-    echo "</tr></thead>";
-    echo "<tbody>";
-    foreach ($sources as $line) {
-        echo '<tr>';
-        foreach (explode("\t", $line) as $datum) {
-            echo "<td>$datum</td>";
-        }
-        echo '</tr>';
-    }
-    echo "</tbody>";
-    ?>
-	</table>
 
 </div>
 

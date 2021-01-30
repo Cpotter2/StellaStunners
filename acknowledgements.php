@@ -31,7 +31,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 
 	<p>Jackie Fortino, Secretary of the CS Department, provided strong assistance as needed.  Dr. Chris Mohler provided much</p>
 
-	<p>technical assistance from the College's Center for Information Technology. Dr. Stephen Meiring, retired mathematics</p>
+	<p>technical assistance from the College's Center for Information Technology. Steve Meiring, retired mathematics</p>
 
 	<p>specialist for the Ohio State Department of Education is, due fulsome thanks for his numerous behind-the-scenes</p>
 
