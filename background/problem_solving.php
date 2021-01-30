@@ -17,7 +17,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 <div id="content">
 
 	<h1><?php echo $pageName ?></h1>
-	<h4>by Rudd Crawford</h4>
+	<h4>by Rudd Crawford and Steve Meiring</h4>
 
 	       <p>The point of studying mathematics is to become fluent at thinking mathematically, i.e., to acquire the ability to use the power of mathematics in personally meaningful ways to achieve some end. Solving problems – solving many of them -- is the means for acquiring this know-how. We can say that problem solving is to learning mathematics content as essay writing is to learning grammar. Knowing mathematical formulas, say, is at the same level as understanding good sentence structure; they are both powerful tools, that shouldn't be thought of as ends in themselves.</p>
 

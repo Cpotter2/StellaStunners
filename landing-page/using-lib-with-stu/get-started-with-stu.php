@@ -38,13 +38,8 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
       <tbody>
 
         <tr>
-          <td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1000.75">1000.75</a></td>
-          <td>Scott the Painter</td>
-        </tr>
-
-        <tr>
-          <td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1000.751">1000.751</a></td>
-          <td>Scott the Painter in multiple copies—you can print out several pages and cut them apart so that each student gets one to try.</td>
+          <td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1000.94">1000.94</a></td>
+          <td>Take a Walk on a Checkerboard</td>
         </tr>
 
         <tr>
@@ -92,7 +87,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 
         <tr>
           <td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1020.42">1020.42</a></td>
-          <td>Overlapping Squares/td>
+          <td>Overlapping Squares</td>
         </tr>
 
         <tr>
