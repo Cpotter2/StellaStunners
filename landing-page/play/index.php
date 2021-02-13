@@ -33,28 +33,28 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tbody>
 
 			<tr>
-				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1040.11">1040.11</a></td>
+				<td><a href="http://mathstunners.org/problems/show-problem.php?id=1040.11">1040.11</a></td>
 				<td>Ten Peach Trees</td>
 			</tr>
 
 			<tr>
-				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1610.11">1610.11</a></td>
+				<td><a href="http://mathstunners.org/problems/show-problem.php?id=1610.11">1610.11</a></td>
 				<td>One Million</td>
 			</tr>
 
 			<tr>
-				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1550.18">1550.18</a></td>
+				<td><a href="http://mathstunners.org/problems/show-problem.php?id=1550.18">1550.18</a></td>
 				<td>Jacob's Bumper</td>
 			</tr>
 
 			<tr>
-				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=3060.51">3060.51</a></td>
+				<td><a href="http://mathstunners.org/problems/show-problem.php?id=3060.51">3060.51</a></td>
 				<td>Red and Blue Point Line Segment</td>
 			</tr>
 			<tr>
 
 			<tr>
-				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=3420.29">3420.29</a></td>
+				<td><a href="http://mathstunners.org/problems/show-problem.php?id=3420.29">3420.29</a></td>
 				<td>Midline Triangle</td>
 			</tr>
 
