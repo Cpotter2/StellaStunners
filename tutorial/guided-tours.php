@@ -16,6 +16,8 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
 
+  <p>A Quick Guided Tour of the Website</p>
+
   <p>Stella problems are coded with index numbers, like this: <strong>2860.51 – Robot Stones</strong></p>
 
   <p>The 2000 part of the number tells us that it’s an algebra problem.  The 860 is the subcategory within algebra (see below).  And the two-place decimal completes

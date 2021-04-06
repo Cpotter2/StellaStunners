@@ -23,12 +23,9 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
   visual problems that require no specific mathematical background, to problems that use the content of Pre-Algebra, Algebra, Geometry, 
   and Trigonometry, up into the foothills of calculus.</p>
 
-  <p>We in the Stella Project have tried to design the website to maximize its usefulness and its ease of use. Two links here in the 
-  WELCOME post-it can get you off to a very quick
-  start. But to get maximum benefit from the website, it’s worth taking some time to visit
-  the two post-its, THE PROBLEM LIBRARY and BROWSING, FINDING, AND
-  DOWNLOADING, before jumping into the specific material in Using the Library with
-  Students.</p>
+  <p>We in the Stella Project have tried to design the website to maximize its usefulness and its ease of use.  It’s worth taking some time 
+  to visit the two sections, The Problem Library and Browsing, Finding, and Downloading, before dealing with the specific material in 
+  Using the Library with Students.  </p>
 
   <p>A personal note:  Nearly all of the ancillary materials—essays, guidelines, instructions--were written by me. You’ll note that I used first person most of the time.  I couldn’t help it, since I was writing about things I did and things I learned.  I hope that the first-person writing won’t get in the way of what I’m trying to say.  It’s not supposed to be about me, but rather about you and what you can do for your students.
 If you’re new here, you can start by playing around with some problems just for fun.  Welcome to the Stella world.</p>

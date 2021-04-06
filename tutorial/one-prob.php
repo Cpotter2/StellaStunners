@@ -6,7 +6,7 @@ include_once(DOCUMENT_ROOT."/php/functions.php");
 
 <?php
 $title = "NAVIGATING IN THE LIBRARY";
-$pageName = "Creating a PDF of One Problem";
+$pageName = "Create a PDF of One Problem";
 include_once(DOCUMENT_ROOT."/includes/header.php");
 ?>
 
@@ -18,21 +18,25 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 
   <p>Find a problem that you want to have on your desktop.</p>
 
-  <ol>
-    <li>Find a problem that you want to have on your desktop. Note its number or title
-(either write it down or put it on your clipboard—or just remember it).</li>
-    <li>Go to Problems and Document Creation; click on Document Creator.</li>
-    <li>On that page type in the problem number or title at "Stella Index" and click "add
-problem".</li>
-    <li>Make a title for the document you’re creating. Click Make Document (the box at the
-bottom).</li>
-  </ol>
+  <p>1. Open it up and note its number (either write it down or put it on your clipboard—or just remember it).</p>
 
-  <p>Your browser will download a pdf.</p>
+  <p>2. Go to Document Create.</p>
 
-  <p><strong><u>Note:</u></strong> You can’t get a problem’s solution into its document. If you want a pdf of a solution, take a screen shot.</p>
+  <p>3. Go to Problems and click on Document Creator.</p>
 
-  <p>There are separate instructions for creating a document of several problems.</p>
+  <p>4. On that page type in the problem number at “Stella Index” and click “add problem”.
+Make a title for the document you’re creating.</p>
+
+  <p>5. Click Make  Document, then click on Open (“save file”).</p>
+
+  <p>6. Save it to your desktop—it’ll be a PDF.</p>
+
+  <p>If you’d rather use the problem’s title than use its index number, you can do that.  (The title is maybe easier to remember.)</p>
+
+  <p><strong><u>Note:</u></strong> You can’t get a problem’s solution into its document.</p>
+
+  <p><strong><u>Warning:</u></strong> If you leave the Create Documents page, what you have won’t be saved. There are separate instructions
+    for creating a document of several problems.</p>
 
 </div>
 

@@ -33,28 +33,28 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tbody>
 
 			<tr>
-				<td><a href="http://mathstunners.org/problems/show-problem.php?id=1040.11">1040.11</a></td>
+				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1040.11">1040.11</a></td>
 				<td>Ten Peach Trees</td>
 			</tr>
 
 			<tr>
-				<td><a href="http://mathstunners.org/problems/show-problem.php?id=1610.11">1610.11</a></td>
+				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1610.11">1610.11</a></td>
 				<td>One Million</td>
 			</tr>
 
 			<tr>
-				<td><a href="http://mathstunners.org/problems/show-problem.php?id=1550.18">1550.18</a></td>
+				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=1550.18">1550.18</a></td>
 				<td>Jacob's Bumper</td>
 			</tr>
 
 			<tr>
-				<td><a href="http://mathstunners.org/problems/show-problem.php?id=3060.51">3060.51</a></td>
+				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=3060.51">3060.51</a></td>
 				<td>Red and Blue Point Line Segment</td>
 			</tr>
 			<tr>
 
 			<tr>
-				<td><a href="http://mathstunners.org/problems/show-problem.php?id=3420.29">3420.29</a></td>
+				<td><a href="http://stella.cs.oberlin.edu/problems/show-problem.php?id=3420.29">3420.29</a></td>
 				<td>Midline Triangle</td>
 			</tr>
 
@@ -63,8 +63,8 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 
   <p>Think about how you’re thinking as you work on them; think about how you feel when you get one or when you get stuck. </p>
 
-  <p> When you’ve had enough of that for now, I suggest you go back to some or all of the
-	other documents in the WELCOME post-it.
+  <p> When you’ve had enough of that for now, you’ll probably want to familiarize yourself with various features of the website.
+    I suggest heading over to the Problem Library Organization menu to see how the library itself is put together (there’s a guided tour).
 </p>
 
 </div>
